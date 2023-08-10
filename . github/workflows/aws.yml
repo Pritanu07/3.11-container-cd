@@ -76,6 +76,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: task-service
+        service: task-services
         cluster: priya-ecs-cluster
         wait-for-service-stability: true
