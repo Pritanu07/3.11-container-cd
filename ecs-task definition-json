@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "3.11-container-CD",
-            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/3.11-cd",
+            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/priya-ecr-cd",
             "portMappings": [
                 {
                     "containerPort": 8080,
